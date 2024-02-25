@@ -344,13 +344,16 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  width: 250px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
 .sidebar.active {
   max-height: 405px;
+}
+
+.sidebar img {
+  border-radius: 20px;
 }
 
 .sidebar-info {
