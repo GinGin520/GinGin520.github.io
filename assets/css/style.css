@@ -363,16 +363,14 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  width: auto;
-  height: auto;
   border-radius: 20px;
 }
 
-.avatar-box img {
+/* .avatar-box img {
   width: auto; 
   height: auto; 
   border-radius: 20px; 
-}
+} */
 
 .info-content .name {
   color: var(--white-2);
