@@ -352,10 +352,6 @@ main {
   max-height: 405px;
 }
 
-.sidebar img {
-  border-radius: 20px;
-}
-
 .sidebar-info {
   position: relative;
   display: flex;
@@ -366,6 +362,10 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
+  border-radius: 20px;
+}
+
+.avatar-box img {
   border-radius: 20px;
 }
 
