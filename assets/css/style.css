@@ -365,10 +365,6 @@ main {
   border-radius: 20px;
 }
 
-.avatar-box img {
-  border-radius: 20px;
-}
-
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -379,7 +375,6 @@ main {
 
 .info-content .title {
   color: var(--white-1);
-  text-align: center;
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
