@@ -635,7 +635,7 @@ main {
  * #publications
  */
 
- .publication {
+.publication {
   margin-bottom: 35px;
 }
 
@@ -693,6 +693,30 @@ main {
 .publication-item-title a {
   color: #ffffff;
   text-decoration: underline; 
+}
+
+.paper-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: hsl(0, 0%, 25%);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.paper-button:hover {
+  background-color:hsl(0, 0%, 5%);
+}
+
+.publication-notes {
+  margin-top: 20px;
+  font-size: var(--fs-7);
+  color: var(--light-gray);
+}
+
+.publication-notes p {
+  margin-bottom: 5px;
 }
 
 
